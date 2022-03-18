@@ -1,0 +1,124 @@
+<mat-card>
+    <mat-card-title>For Parents</mat-card-title>
+</mat-card>
+
+<br>
+
+<div class="container">
+    <mat-card>
+        <mat-card-title>
+            Important Information
+        </mat-card-title>
+        <mat-card-content>
+            <strong>
+                KIDDIE KORNER PRIVATE SCHOOL IS LICENSED BY THE STATE DEDPARTMENT OF PUBLIC WELFARE, SIGNIFYING THAT WE HAVE MET AND MAINTAINED THE TEXAS STANDARDS FOR LICENSING.
+            </strong>
+        </mat-card-content>
+
+        <mat-card-content>
+            <p>
+                Parents may review a copy of our most recent Licensing inspection report, or may ask to review a copy of Minimum Standards from the Texas Department of Family and Protective Services. Inspection reports will be posted on the bulletin board just outside the office.
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<br>
+
+<div class="container">
+    <mat-card>
+        <mat-card-title>
+            Resources
+        </mat-card-title>
+        <mat-card-content>
+
+            <div class="container">
+
+                <div class="example-action-buttons">
+                    <button mat-button (click)="accordion.openAll()">Expand All</button>
+                    <button mat-button (click)="accordion.closeAll()">Collapse All</button>
+                </div>
+                
+            <!--Start Accordion-->
+                <mat-accordion class="example-headers-align" multi>
+            <!--Start Panel-->
+                    <mat-expansion-panel>
+            <!--Pannel Info While Closed-->
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Licensing Office
+                            </mat-panel-title>
+                            <mat-panel-description>
+                            
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+            <!--Open Panel Info-->
+                        <p>
+                            Phone Number: (214) 951-7902, Ext. 2196
+                        </p>
+                        <p>
+                            Address: <br>
+                            8700 North Stemmons Freeway <br>
+                            Dallas, Texas 
+                        </p>
+                    </mat-expansion-panel>
+    <!--Start Panel-->      
+                    <mat-expansion-panel>
+            <!--Pannel Info While Closed-->         
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Texas Department of Family and Protectice Services
+                        </mat-panel-title>
+                        <mat-panel-description>
+                           
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+            <!--Open Panel Info-->
+                        <a href="www.dfps.state.tx.us/childcare"
+                        target="_blank" rel="noopener noreferrer">
+                            DFPS Website
+                        </a>
+                    </mat-expansion-panel>
+    <!--Start Panel-->      
+            <mat-expansion-panel>
+                <!--Pannel Info While Closed-->         
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Finanical Assistance
+                            </mat-panel-title>
+                            <mat-panel-description>
+                                
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                <!--Open Panel Info-->
+                            <a href="https://cca.childcaregroup.org/ccg"
+                            target="_blank" rel="noopener noreferrer">
+                                Child Care Group
+                            </a>
+                        </mat-expansion-panel>
+
+            <!--Start Panel-->      
+                     <mat-expansion-panel>
+                <!--Pannel Info While Closed-->         
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Poison Control
+                            </mat-panel-title>
+                            <mat-panel-description>
+                                
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                <!--Open Panel Info-->
+                            <a href="https://www.poison.org/"
+                            target="_blank" rel="noopener noreferrer">
+                                Poison Control
+                            </a>
+                    </mat-expansion-panel>
+            <!--End Accordion-->   
+                </mat-accordion>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<br>

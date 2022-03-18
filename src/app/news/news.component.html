@@ -1,0 +1,50 @@
+<mat-card>
+    <mat-card-title>News</mat-card-title>
+</mat-card>
+
+<br>
+
+<div class="container">
+
+    <div class="example-action-buttons">
+        <button mat-button (click)="accordion.openAll()">Expand All</button>
+        <button mat-button (click)="accordion.closeAll()">Collapse All</button>
+    </div>
+    
+<!--Start Accordion-->
+    <mat-accordion class="example-headers-align" multi>
+<!--Start Panel-->
+        <mat-expansion-panel>
+<!--Pannel Info While Closed-->
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                Now Hiring
+                </mat-panel-title>
+                <mat-panel-description>
+                Hiring Teachers
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+<!--Open Panel Info-->
+            <p>
+                We are now hiring for teachers, to apply please contact us <a class="link-dark" routerLink="/contact-us"> here.</a>
+            </p>
+        </mat-expansion-panel>
+ <!--Start Panel-->      
+        <mat-expansion-panel>
+ <!--Pannel Info While Closed-->         
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Closed
+            </mat-panel-title>
+            <mat-panel-description>
+                02/03/22 - 02/04/22
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+<!--Open Panel Info-->
+        <p>
+            Due to anticipated inclement weather, Kiddie Korner Private School will be closed Thursday, Feb, 3 and Friday Feb 4. Stay warm and safe, and we look forward to reopening our school next week.
+        </p>
+        </mat-expansion-panel>
+<!--End Accordion-->   
+    </mat-accordion>
+</div>

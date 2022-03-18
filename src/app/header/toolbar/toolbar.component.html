@@ -1,0 +1,52 @@
+<div>
+    <mat-toolbar color="primary">
+        <button mat-icon-button 
+                aria-label="Example icon button with a menu icon"
+                [matMenuTriggerFor]="menu"
+                style="outline: none;">
+            <mat-icon>menu</mat-icon>
+          </button>
+          <span>Kiddie Korner</span>
+
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink="">
+              <span>
+                <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+              </span>
+              Home</button>
+            <button mat-menu-item routerLink="about">
+              <mat-icon aria-hidden="false" aria-label="Example home icon">
+                description</mat-icon>
+              About Us</button>
+            <button mat-menu-item mat-menu-item [matMenuTriggerFor]="programs">
+              <mat-icon aria-hidden="false" aria-label="Example home icon">
+                library_books</mat-icon>
+                Our Programs</button>
+            <button mat-menu-item mat-menu-item [matMenuTriggerFor]="parents">
+              <span>
+                <mat-icon aria-hidden="false" aria-label="Example home icon">escalator_warning</mat-icon>
+              </span>
+              Parents</button>
+            <button mat-menu-item routerLink="news">
+              <mat-icon aria-hidden="false" aria-label="Example home icon">
+                newspaper</mat-icon>
+              News</button>
+            <button mat-menu-item routerLink="contact-us">
+              <mat-icon aria-hidden="false" aria-label="Example home icon">
+                call</mat-icon>
+                Contact Us</button>
+          </mat-menu>
+    
+          <mat-menu #programs>
+            <button mat-menu-item routerLink="curriculum">Curriculum</button>
+            <button mat-menu-item routerLink="meals">Nutrition</button>
+            <button mat-menu-item routerLink="schedule">Schedule</button>
+          </mat-menu>
+    
+          <mat-menu #parents>
+            <button mat-menu-item routerLink="parents">For Parents</button>
+            <button mat-menu-item routerLink="enrollment">Enrollment</button>
+            <button mat-menu-item routerLink="tuition">Tuition</button>
+          </mat-menu>
+    </mat-toolbar>
+</div>
