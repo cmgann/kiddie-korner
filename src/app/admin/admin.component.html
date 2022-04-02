@@ -1,0 +1,561 @@
+<form [formGroup]="menuForm">
+
+<div>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Meal Type</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Meal Category</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thrusdsay</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+</div>
+
+<!-- Second Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Breakfast</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Milk</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Milk</mat-label>
+    <input matInput
+        formControlName="monday0">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Milk</mat-label>
+    <input matInput formControlName="tuesday0">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Milk</mat-label>
+    <input matInput formControlName="wednesday0">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thrusdsay Milk</mat-label>
+    <input matInput formControlName="thursday0">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Milk</mat-label>
+    <input matInput formControlName="friday0">
+  </mat-form-field>
+
+</div>
+
+
+
+<!-- Third Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Breakfast</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Fruits or Vegetables</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Fruits or Vegetables</mat-label>
+    <input matInput
+        formControlName="monday1">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="tuesday1">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="wednesday1">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="thursday1">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="friday1">
+  </mat-form-field>
+
+</div>
+
+
+
+<!-- Forth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Breakfast</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Grains</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Grains</mat-label>
+    <input matInput
+        formControlName="monday2">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Grains</mat-label>
+    <input matInput formControlName="tuesday2">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Grains</mat-label>
+    <input matInput formControlName="wednesday2">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Grains</mat-label>
+    <input matInput formControlName="thursday2">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Grains</mat-label>
+    <input matInput formControlName="friday2">
+  </mat-form-field>
+</div>
+
+
+<!-- Fifth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Lunch</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Milk</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Milk</mat-label>
+    <input matInput
+        formControlName="monday3">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Milk</mat-label>
+    <input matInput formControlName="tuesday3">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Milk</mat-label>
+    <input matInput formControlName="wednesday3">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thrusdsay Milk</mat-label>
+    <input matInput formControlName="thursday3">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Milk</mat-label>
+    <input matInput formControlName="friday3">
+  </mat-form-field>
+
+</div>
+
+
+<!-- Fifth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Lunch</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Fruits or Vegetables</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Fruits or Vegetables</mat-label>
+    <input matInput
+        formControlName="monday4">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="tuesday4">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="wednesday4">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="thursday4">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="friday4">
+  </mat-form-field>
+
+</div>
+
+
+
+<!-- Sixth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Lunch</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Grains</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Grains</mat-label>
+    <input matInput
+        formControlName="monday5">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Grains</mat-label>
+    <input matInput formControlName="tuesday5">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Grains</mat-label>
+    <input matInput formControlName="wednesday5">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Grains</mat-label>
+    <input matInput formControlName="thursday5">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Grains</mat-label>
+    <input matInput formControlName="friday5">
+  </mat-form-field>
+</div>
+
+
+<!-- Seventh Row -->
+
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Lunch</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Meat or Meat Alternative</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Meat or Meat Alternative</mat-label>
+    <input matInput
+        formControlName="monday6">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="tuesday6">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="wednesday6">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="thursday6">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="friday6">
+  </mat-form-field>
+</div>
+
+
+<!-- Eighth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>P.M. Snack</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Milk</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Milk</mat-label>
+    <input matInput
+        formControlName="monday7">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Milk</mat-label>
+    <input matInput formControlName="tuesday7">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Milk</mat-label>
+    <input matInput formControlName="wednesday7">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thrusdsay Milk</mat-label>
+    <input matInput formControlName="thursday7">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Milk</mat-label>
+    <input matInput formControlName="friday7">
+  </mat-form-field>
+
+</div>
+
+
+<!-- Ninth Row -->
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>P.M. Snack</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Fruits or Vegetables</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Fruits or Vegetables</mat-label>
+    <input matInput
+        formControlName="monday8">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="tuesday8">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="wednesday8">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="thursday8">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Fruits or Vegetables</mat-label>
+    <input matInput formControlName="friday8">
+  </mat-form-field>
+
+</div>
+
+
+<!-- Tenth Row-->
+
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>P.M. Snack</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Grains</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Grains</mat-label>
+    <input matInput
+        formControlName="monday9">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Grains</mat-label>
+    <input matInput formControlName="tuesday9">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Grains</mat-label>
+    <input matInput formControlName="wednesday9">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Grains</mat-label>
+    <input matInput formControlName="thursday9">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Grains</mat-label>
+    <input matInput formControlName="friday9">
+  </mat-form-field>
+</div>
+
+
+<!-- Eleventh Row -->
+
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>P.M. Snack</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Meat or Meat Alternative</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Meat or Meat Alternative</mat-label>
+    <input matInput
+        formControlName="monday10">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="tuesday10">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="wednesday10">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="thursday10">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Meat or Meat Alternative</mat-label>
+    <input matInput formControlName="friday10">
+  </mat-form-field>
+</div>
+
+
+<!-- Twelfth Row -->
+
+
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>P.M. Snack</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Other</mat-label>
+    <input matInput disabled="true">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Monday Other</mat-label>
+    <input matInput
+        formControlName="monday11">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Tuesday Other</mat-label>
+    <input matInput formControlName="tuesday11">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Wednesday Other</mat-label>
+    <input matInput formControlName="wednesday11">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Thursday Other</mat-label>
+    <input matInput formControlName="thursday11">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="padding-left: 2px;">
+    <mat-label>Friday Other</mat-label>
+    <input matInput formControlName="friday11">
+  </mat-form-field>
+</div>
+
+</form>
+
+<br>
+
+<section>
+  <button mat-raised-button color="primary" 
+          style="margin-left: 16px;"
+          (click)="saveForm1()"
+          >Save</button>
+  <button mat-raised-button color="warn" 
+          style="margin-left: 16px;"
+          (click)="clearForm()">Clear All</button>
+</section>
+
+<br>
+<br>

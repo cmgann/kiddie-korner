@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { MaterialModule } from 'src/app/shared/material.module';
 import { HeaderComponent } from './header/header.component';
@@ -24,6 +25,13 @@ import { HeaderCardsComponent } from './home/header-cards/header-cards.component
 import { WelcomeMessageComponent } from './home/welcome-message/welcome-message.component';
 import { ToolbarComponent } from './header/toolbar/toolbar.component';
 import { AboutDesktopComponent } from './about/about-desktop/about-desktop.component';
+import { MenuComponent } from './our-programs/meals/menu/menu.component';
+import { AdminComponent } from './admin/admin.component';
+import { AboutMobileComponent } from './about/about-mobile/about-mobile.component';
+import { CurriculumMobileComponent } from './our-programs/curriculum/curriculum-mobile/curriculum-mobile.component';
+import { CurriculumDesktopComponent } from './our-programs/curriculum/curriculum-desktop/curriculum-desktop.component';
+import { MealsDesktopComponent } from './our-programs/meals/meals-desktop/meals-desktop.component';
+import { MealsMobileComponent } from './our-programs/meals/meals-mobile/meals-mobile.component';
 
 @NgModule({
   declarations: [
@@ -45,13 +53,21 @@ import { AboutDesktopComponent } from './about/about-desktop/about-desktop.compo
     HeaderCardsComponent,
     WelcomeMessageComponent,
     ToolbarComponent,
-    AboutDesktopComponent
+    AboutDesktopComponent,
+    MenuComponent,
+    AdminComponent,
+    AboutMobileComponent,
+    CurriculumMobileComponent,
+    CurriculumDesktopComponent,
+    MealsDesktopComponent,
+    MealsMobileComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

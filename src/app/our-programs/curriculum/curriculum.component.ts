@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MatAccordion } from '@angular/material/expansion';
+import { AppService } from 'src/app/shared/app.service';
 
 @Component({
   selector: 'app-curriculum',
@@ -7,10 +7,14 @@ import { MatAccordion } from '@angular/material/expansion';
   styleUrls: ['./curriculum.component.css']
 })
 export class CurriculumComponent implements OnInit {
-  @ViewChild(MatAccordion)
-  accordion: MatAccordion = new MatAccordion;
+  deviceInfo: any = this.appService.deviceInfo;
+  isMobile: boolean = this.appService.isMobile;
+  isTablet: boolean = this.appService.isTablet;
+  isDesktop: boolean = this.appService.isDesktop;
 
-  constructor() { }
+  constructor(
+    private appService: AppService
+  ) { }
 
   ngOnInit(): void {
   }

@@ -1,0 +1,40 @@
+
+
+<mat-toolbar
+style="background-color: #28a745;
+            color: white;"
+*ngIf="this.active">
+    <span>Success</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" (click)="deactivate()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-toolbar>
+
+
+
+  <mat-toolbar
+style="background-color: #dc3545;
+            color: white;"
+*ngIf="this.active">
+    <span>Warning</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" (click)="deactivate()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-toolbar>
+
+
+
+
+
+  <mat-toolbar
+style="background-color: #17a2b8;
+            color: white;"
+*ngIf="this.active">
+    <span>Info</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" (click)="deactivate()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-toolbar>

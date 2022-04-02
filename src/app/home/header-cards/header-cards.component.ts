@@ -22,8 +22,7 @@ export class HeaderCardsComponent implements OnInit {
 
   mobileTileAdjust() {
     if (this.isMobile == true) {
-      console.log('is mobile')
-      this.rowheight = '3:2'
+      this.rowheight = '3:1.5'
       this.cols = '1'
     }
   }
